@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.SignUpWithValidDataTest">
+        <methods>
+          <include name="logout"/>
+          <include name="takeScreenshot"/>
+          <include name="startDriver"/>
+          <include name="checkRegisteredUserData"/>
+          <include name="updateProfile"/>
+          <include name="generateReport"/>
+          <include name="stopDriver"/>
+          <include name="login"/>
+          <include name="signup"/>
+        </methods>
+      </class> <!-- tests.SignUpWithValidDataTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
